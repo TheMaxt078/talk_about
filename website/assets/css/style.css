@@ -1,0 +1,63 @@
+/*************************************************
+The Maxt CSS template
+*************************************************/
+
+body
+{
+    font-family: Roboto;
+    background-color: #ffffff;
+}
+
+.header
+{
+    background-color: #3A8ECD;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    padding: 10px;
+    font-weight: bold;
+    opacity: 0.5;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-radius: 2px;
+  }
+  
+  .topnav a.active {
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .circle-60
+  {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+  }
+
+  .center {
+    position: relative;
+    /*border: 3px solid green;*/
+  }
+  
+  .center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
